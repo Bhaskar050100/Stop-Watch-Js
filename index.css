@@ -49,4 +49,9 @@
     outline: none;
     border: none;
     cursor: pointer;
+    transition: transform 0.3s ease;;
+}
+.button:hover {
+    background-color: green;
+    transform: scale(1.03);
 }
